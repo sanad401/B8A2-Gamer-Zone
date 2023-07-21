@@ -1,0 +1,116 @@
+.hidden {
+    display: none;
+}
+
+/* banner-section */
+.banner-container {
+    display: flex;
+    align-items: center;
+    gap: 68px;
+}
+
+.text-section {
+    background-image: url(../images/Group\ 14.png);
+    background-repeat: no-repeat;
+}
+
+.banner-content {
+    margin: 148px 296px 148px 240px;
+}
+
+.common-text {
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+#goat {
+    font-family: Work Sans;
+    font-size: 95px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* color: linear-gradient(180deg, #F948B2 0%, #8758F1 100%); */
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.banner-text {
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: lowercase;
+    margin-top: 0px;
+}
+
+.buttons {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+    white-space: nowrap;
+}
+
+.btn-1 {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 21px 40px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+}
+
+.btn-2 {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+
+    padding: 21px 40px;
+    border-radius: 48px;
+    background: #4EC5F7;
+}
+
+.banner-img {}
+
+.banner-img img {}
+
+/* mobile responsive */
+@media screen and (max-width:576px) {
+    .banner-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .text-section{
+        /* margin: 131px 66px 36px 145px; */
+    }
+    .banner-content{
+        /* margin:0; */
+        
+        
+    }
+    .border{
+        /* padding: 131px 66px 36px 145px; */
+    }
+
+
+}
